@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"
+BOT_TOKEN = "8648556268:AAFp5HUZMQM_gOyfQZ3zP56YnhGVLD7qdBY"
 VIDEO_FILE_ID = "BAACAgIAAxkBAAFHc_hp4q1nVZlcPLlvkHd109mbplooZwACmp8AAtVYGEtZCUZJbuTUjDsE"
 
 bot = telebot.TeleBot(BOT_TOKEN)
