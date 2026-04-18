@@ -36,5 +36,8 @@ def start(message):
         reply_markup=keyboard
     )
 
+@bot.message_handler(content_types=['video'])
+def get_video_id(message):
+    bot.send_message(message.chat.id, message.video.file_id)
 print("Бот запущен...")
 bot.infinity_polling()
